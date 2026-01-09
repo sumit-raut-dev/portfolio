@@ -385,12 +385,11 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/bg2.png);
+        background-image: url(images/bg4.png);
     }
 
     .header-text {
         margin-top: 100%;
-        font-size: 16px;
     }
 
     nav .fas {
@@ -446,17 +445,17 @@ nav .fas {
     }
 
     .header-text {
-        margin-top: 58%;
+        margin-top: 62%;
         font-size: 20px;
     }
 
     .header-text h1 {
         margin-top: 20px;
-        font-size: 27px;
+        font-size: 23px;
     }
 
     .header-text p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .contact-left,
@@ -555,7 +554,6 @@ nav .fas {
     #header {
         background-image: url(images/bg.png);
         background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .about-col-1,
