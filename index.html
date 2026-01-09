@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f864447474.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-solid fa-list" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi , I'm <span>Sumit</span><br> From Delhi,India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------About------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user12.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, soluta! Pariatur distinctio
+                        facilis dignissimos ipsam consectetur laboriosam officia minus perspiciatis. Natus tenetur,
+                        distinctio iusto illum fugiat ipsum minima tempore delectus iste? Aliquid eius dolore vero
+                        explicabo velit adipisci sit? Esse vero quis officiis molestias </p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>HTML</span><br>Designing Web/App Interface</li>
+                            <li><span>CSS</span><br>Web app Development</li>
+                            <li><span>JS</span><br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Schooling</span><br>KV INA</li>
+                            <li><span>College</span><br>IITM</li>
+                            <li><span>App Development</span><br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Services ----------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis culpa sint non,
+                        quae, sequi officia vel fuga eius alias ab pariatur ea?
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis culpa sint non,
+                        quae, sequi officia vel fuga eius alias ab pariatur ea?
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis culpa sint non,
+                        quae, sequi officia vel fuga eius alias ab pariatur ea?
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------- Portfolio ----------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="error">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectea tempore, molestiae delectus
+                            sint voluptas maiores optio ex?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="error">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectea tempore, molestiae delectus
+                            sint voluptas maiores optio ex?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="error">
+                    <div class="layer">
+                        <h3>E-Commerce App</h3>
+                        <p>Lorem ipsum dolor sit amet consectea tempore, molestiae delectus
+                            sint voluptas maiores optio ex?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!----------------------------------------contact-------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> rautsunit2006@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i> 8920578037</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sumit-raut-dev"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="01.php" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Eamil" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sumit. Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links")
+        let tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
