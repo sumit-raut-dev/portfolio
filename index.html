@@ -204,7 +204,7 @@
     </script>
 
     <script>
-        var sidemenu = document.getElementById("side-menu");
+        let sidemenu = document.getElementById("side-menu");
         function openmenu(){
             sidemenu.style.right = "0";
             sidemenu.style.zIndex = "10000";
@@ -212,6 +212,9 @@
         function closemenu(){
             sidemenu.style.right = "-200px";
         }
+        window.addEventListener('scroll',function (){
+            sidemenu.style.right = "-200px"
+        })
 
     </script>
 
